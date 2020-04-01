@@ -1,0 +1,548 @@
+﻿[
+ {
+   "FIELD1": "Dec-00",
+   "Yield % (RIGHT)": 7.9,
+   "12 Month Excess Return % (LEFT)": 8.31,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": "73.69%"
+ },
+ {
+   "FIELD1": "Mar-01",
+   "Yield % (RIGHT)": 7.07,
+   "12 Month Excess Return % (LEFT)": 4.51,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": "0.543023693"
+ },
+ {
+   "FIELD1": "Jun-01",
+   "Yield % (RIGHT)": 6.79,
+   "12 Month Excess Return % (LEFT)": 4,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-01",
+   "Yield % (RIGHT)": 7.13,
+   "12 Month Excess Return % (LEFT)": 7.17,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-01",
+   "Yield % (RIGHT)": 7,
+   "12 Month Excess Return % (LEFT)": 3.26,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-02",
+   "Yield % (RIGHT)": 6.86,
+   "12 Month Excess Return % (LEFT)": 4.07,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-02",
+   "Yield % (RIGHT)": 6.81,
+   "12 Month Excess Return % (LEFT)": 4.03,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-02",
+   "Yield % (RIGHT)": 7.02,
+   "12 Month Excess Return % (LEFT)": 0.17,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-02",
+   "Yield % (RIGHT)": 7.3,
+   "12 Month Excess Return % (LEFT)": 6.26,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-03",
+   "Yield % (RIGHT)": 6.73,
+   "12 Month Excess Return % (LEFT)": 4.49,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-03",
+   "Yield % (RIGHT)": 6.37,
+   "12 Month Excess Return % (LEFT)": -7.24,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-03",
+   "Yield % (RIGHT)": 6.8,
+   "12 Month Excess Return % (LEFT)": 2.48,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-03",
+   "Yield % (RIGHT)": 6.44,
+   "12 Month Excess Return % (LEFT)": 0.31,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-04",
+   "Yield % (RIGHT)": 6.3,
+   "12 Month Excess Return % (LEFT)": -3.56,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-04",
+   "Yield % (RIGHT)": 7,
+   "12 Month Excess Return % (LEFT)": 9.37,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-04",
+   "Yield % (RIGHT)": 6.53,
+   "12 Month Excess Return % (LEFT)": 2.29,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-04",
+   "Yield % (RIGHT)": 6.65,
+   "12 Month Excess Return % (LEFT)": -1.26,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-05",
+   "Yield % (RIGHT)": 6.71,
+   "12 Month Excess Return % (LEFT)": 3.43,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-05",
+   "Yield % (RIGHT)": 6.29,
+   "12 Month Excess Return % (LEFT)": -1.28,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-05",
+   "Yield % (RIGHT)": 6.36,
+   "12 Month Excess Return % (LEFT)": 0.84,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-05",
+   "Yield % (RIGHT)": 6.59,
+   "12 Month Excess Return % (LEFT)": 5.84,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-06",
+   "Yield % (RIGHT)": 6.31,
+   "12 Month Excess Return % (LEFT)": 3.25,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-06",
+   "Yield % (RIGHT)": 6.46,
+   "12 Month Excess Return % (LEFT)": 1.1,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-06",
+   "Yield % (RIGHT)": 6.1,
+   "12 Month Excess Return % (LEFT)": -6.68,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-06",
+   "Yield % (RIGHT)": 5.92,
+   "12 Month Excess Return % (LEFT)": -13.18,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-07",
+   "Yield % (RIGHT)": 5.97,
+   "12 Month Excess Return % (LEFT)": -13.2,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-07",
+   "Yield % (RIGHT)": 6.24,
+   "12 Month Excess Return % (LEFT)": -8.14,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-07",
+   "Yield % (RIGHT)": 6.69,
+   "12 Month Excess Return % (LEFT)": -17.62,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-07",
+   "Yield % (RIGHT)": 7.27,
+   "12 Month Excess Return % (LEFT)": -23.07,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-08",
+   "Yield % (RIGHT)": 7.45,
+   "12 Month Excess Return % (LEFT)": -16.5,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-08",
+   "Yield % (RIGHT)": 7.45,
+   "12 Month Excess Return % (LEFT)": -9.35,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-08",
+   "Yield % (RIGHT)": 9.54,
+   "12 Month Excess Return % (LEFT)": 17.99,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-08",
+   "Yield % (RIGHT)": 11.37,
+   "12 Month Excess Return % (LEFT)": 38.07,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-09",
+   "Yield % (RIGHT)": 10.65,
+   "12 Month Excess Return % (LEFT)": 32.34,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-09",
+   "Yield % (RIGHT)": 8.41,
+   "12 Month Excess Return % (LEFT)": 14.08,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-09",
+   "Yield % (RIGHT)": 7.22,
+   "12 Month Excess Return % (LEFT)": 7.03,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-09",
+   "Yield % (RIGHT)": 7.29,
+   "12 Month Excess Return % (LEFT)": 1.74,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-10",
+   "Yield % (RIGHT)": 7.01,
+   "12 Month Excess Return % (LEFT)": -1.24,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-10",
+   "Yield % (RIGHT)": 7.24,
+   "12 Month Excess Return % (LEFT)": 0.65,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-10",
+   "Yield % (RIGHT)": 6.82,
+   "12 Month Excess Return % (LEFT)": -5.29,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-10",
+   "Yield % (RIGHT)": 7.19,
+   "12 Month Excess Return % (LEFT)": 2.21,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-11",
+   "Yield % (RIGHT)": 7.09,
+   "12 Month Excess Return % (LEFT)": 4.74,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-11",
+   "Yield % (RIGHT)": 6.95,
+   "12 Month Excess Return % (LEFT)": 3.77,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-11",
+   "Yield % (RIGHT)": 7.56,
+   "12 Month Excess Return % (LEFT)": 7.74,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-11",
+   "Yield % (RIGHT)": 7.31,
+   "12 Month Excess Return % (LEFT)": 0.93,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-12",
+   "Yield % (RIGHT)": 6.81,
+   "12 Month Excess Return % (LEFT)": -1.32,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-12",
+   "Yield % (RIGHT)": 6.86,
+   "12 Month Excess Return % (LEFT)": -8.65,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-12",
+   "Yield % (RIGHT)": 6.49,
+   "12 Month Excess Return % (LEFT)": -13.19,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-12",
+   "Yield % (RIGHT)": 6.75,
+   "12 Month Excess Return % (LEFT)": -12.16,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-13",
+   "Yield % (RIGHT)": 6.47,
+   "12 Month Excess Return % (LEFT)": -9.95,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-13",
+   "Yield % (RIGHT)": 6.92,
+   "12 Month Excess Return % (LEFT)": -3.21,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-13",
+   "Yield % (RIGHT)": 7.15,
+   "12 Month Excess Return % (LEFT)": -0.77,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-13",
+   "Yield % (RIGHT)": 7.19,
+   "12 Month Excess Return % (LEFT)": -3.19,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-14",
+   "Yield % (RIGHT)": 6.85,
+   "12 Month Excess Return % (LEFT)": -5.77,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-14",
+   "Yield % (RIGHT)": 6.56,
+   "12 Month Excess Return % (LEFT)": -9.34,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-14",
+   "Yield % (RIGHT)": 6.79,
+   "12 Month Excess Return % (LEFT)": -11.1,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-14",
+   "Yield % (RIGHT)": 7.15,
+   "12 Month Excess Return % (LEFT)": -5.58,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-15",
+   "Yield % (RIGHT)": 6.87,
+   "12 Month Excess Return % (LEFT)": -4.49,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-15",
+   "Yield % (RIGHT)": 7.26,
+   "12 Month Excess Return % (LEFT)": 1.34,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-15",
+   "Yield % (RIGHT)": 7.94,
+   "12 Month Excess Return % (LEFT)": 5.96,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-15",
+   "Yield % (RIGHT)": 7.93,
+   "12 Month Excess Return % (LEFT)": -0.71,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-16",
+   "Yield % (RIGHT)": 7.58,
+   "12 Month Excess Return % (LEFT)": 0.14,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-16",
+   "Yield % (RIGHT)": 7.16,
+   "12 Month Excess Return % (LEFT)": -0.52,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-16",
+   "Yield % (RIGHT)": 6.93,
+   "12 Month Excess Return % (LEFT)": 0.35,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-16",
+   "Yield % (RIGHT)": 7.09,
+   "12 Month Excess Return % (LEFT)": 3.15,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-17",
+   "Yield % (RIGHT)": 6.72,
+   "12 Month Excess Return % (LEFT)": -2.42,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-17",
+   "Yield % (RIGHT)": 6.58,
+   "12 Month Excess Return % (LEFT)": -4.31,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-17",
+   "Yield % (RIGHT)": 6.47,
+   "12 Month Excess Return % (LEFT)": -7.14,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-17",
+   "Yield % (RIGHT)": 6.7,
+   "12 Month Excess Return % (LEFT)": -11.72,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-18",
+   "Yield % (RIGHT)": 6.88,
+   "12 Month Excess Return % (LEFT)": -5.62,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-18",
+   "Yield % (RIGHT)": 6.83,
+   "12 Month Excess Return % (LEFT)": -5.7,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-18",
+   "Yield % (RIGHT)": 6.79,
+   "12 Month Excess Return % (LEFT)": -3.53,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-18",
+   "Yield % (RIGHT)": 8,
+   "12 Month Excess Return % (LEFT)": 3.9,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-19",
+   "Yield % (RIGHT)": 6.96,
+   "12 Month Excess Return % (LEFT)": null,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jun-19",
+   "Yield % (RIGHT)": 6.85,
+   "12 Month Excess Return % (LEFT)": null,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sep-19",
+   "Yield % (RIGHT)": 6.82,
+   "12 Month Excess Return % (LEFT)": null,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dec-19",
+   "Yield % (RIGHT)": 6.84,
+   "12 Month Excess Return % (LEFT)": null,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mar-20",
+   "Yield % (RIGHT)": 12.1,
+   "12 Month Excess Return % (LEFT)": null,
+   "Average Yield (RIGHT)": 7.12,
+   "FIELD5": ""
+ }
+]
