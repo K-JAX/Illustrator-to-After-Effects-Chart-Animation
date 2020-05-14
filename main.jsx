@@ -2,6 +2,7 @@
 var compSizeX = 1920,
     compSizeY = 1080,
     sceneLength = 30,
+    chartHeight = 0.5, // 0.0 - 1.0
     lineColor = [0,1,0.75],
     lineWidth = 15,
     barColor = [0.6,0.9,1];
@@ -15,6 +16,8 @@ var xPadding = 40,
 
 #include './lib/foreach-shim.jsx';
 
+#include './lib/json2.js'
+
 #include './inc/readJSON.jsx';
 
 #include './inc/createComp.jsx';
@@ -23,7 +26,7 @@ var xPadding = 40,
 
 #include './inc/helper.jsx';
  
- readJSONFile(File("~/Documents/ICM/Post-Chart-Template/data.json"));
+createLayers(data);
 
-
+// readJSONFile(File("~/Documents/ICM/Post-Chart-Template/data.json"));
  
