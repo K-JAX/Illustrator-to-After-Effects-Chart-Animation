@@ -35,10 +35,12 @@ function createLayers(data) {
     // T.transform.position.setValue([100,80,0]);
 
     app.project.activeItem.motionGraphicsTemplateName = "Line Chart Controls";
-    // app.project.item(index).layer(index).propertySpec.addToMotionGraphicsTemplate(myComp)
-
     data.forEach(function (arrayItem) {
-        vertices.push(makeVertices(arrayItem, count, spaceBetween, rightMax));
+        if (chartType == "Line" || chartType == "Line & Bars") {
+            vertices.push(
+                makeVertices(arrayItem, count, spaceBetween, rightMax)
+            );
+        }
         createAssets(arrayItem, count, spaceBetween, rightMax);
         count += 1;
     });

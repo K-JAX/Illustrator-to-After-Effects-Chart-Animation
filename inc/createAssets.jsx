@@ -1,7 +1,9 @@
 function createAssets(item, count, spaceBetween, rightMax) {
     // var parentNull = createNull(item, count, spaceBetween, rightMax);
     var parentNull;
-    createSolid(item, count, spaceBetween, parentNull, rightMax);
+    if (chartType == "Bar" || chartType == "Line & Bars") {
+        createSolid(item, count, spaceBetween, parentNull, rightMax);
+    }
     createText(item, count, spaceBetween, parentNull);
 }
 
@@ -146,7 +148,7 @@ function createSolid(item, count, spaceBetween, parentNull, rightMax) {
 
 function createText(item, count, spaceBetween, parentNull) {
     if ((count + 5) % 10 == 0) {
-        var myText = myComp.layers.addText(item.FIELD1);
+        var myText = myComp.layers.addText(item[axes.x]);
         var textProperty = myText.property("Source Text").value;
         var spreadValue = spaceBetween * count;
         myText.position.setValue([spreadValue + xPadding, chartBase + 50]);

@@ -10,15 +10,13 @@ var compSizeX = 1920,
 /* Other spacial params */
 var xPadding = 40,
     leftFieldName= '12 Month Excess Return % (LEFT)',
-    rightFieldName='Yield % (RIGHT)',
+    rightFieldName=axes.y,
     easeIn = new KeyframeEase(0.5, 60),
     easeOut = new KeyframeEase(0.75, 35);
-
+    
 #include './lib/foreach-shim.jsx';
 
 #include './lib/json2.js'
-
-#include './inc/readJSON.jsx';
 
 #include './inc/createComp.jsx';
 
@@ -28,5 +26,4 @@ var xPadding = 40,
  
 createLayers(data);
 
-// readJSONFile(File("~/Documents/ICM/Post-Chart-Template/data.json"));
  
