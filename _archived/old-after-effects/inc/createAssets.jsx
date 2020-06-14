@@ -1,10 +1,10 @@
-function createAssets(item, count, spaceBetween, rightMax) {
-    // var parentNull = createNull(item, count, spaceBetween, rightMax);
+function createAssets(item, count, spaceXBetween, chartMax) {
+    // var parentNull = createNull(item, count, spaceXBetween, chartMax);
     var parentNull;
     if (chartType == "Bar" || chartType == "Line & Bars") {
-        createSolid(item, count, spaceBetween, parentNull, rightMax);
+        createSolid(item, count, spaceXBetween, parentNull, chartMax);
     }
-    createText(item, count, spaceBetween, parentNull);
+    createXAxisText(item, count, spaceXBetween, parentNull);
 }
 
 function createMasterNull() {
@@ -21,17 +21,19 @@ function createMasterNull() {
     myNullFill.addToMotionGraphicsTemplateAs(myComp, "Bar Color");
 }
 
-function makeVertices(item, count, spaceBetween, rightMax) {
-    var spreadValue = spaceBetween * count;
-    var yValue = getProportionalYValue(item["Yield % (RIGHT)"], rightMax);
+function makeVertices(item, count, spaceXBetween, chartMax) {
+    var spreadValue = spaceXBetween * count;
+    var yValue = getProportionalYValue(item[leftFieldName], chartMax);
     var vertex = [spreadValue + xPadding, yValue];
     return vertex;
 }
 
-function getProportionalYValue(dataColumn, rightMax) {
-    var proportionalHeight = (dataColumn * compSizeY) / rightMax;
-    var rawHeight = proportionalHeight * chartHeight;
-    var yValue = chartBase - rawHeight;
+function getProportionalYValue(dataColumn, chartMax) {
+    var valueToComp = (dataColumn - chartMin) * compSizeY;
+    var dataMaxVal = chartMax - chartMin;
+    var proportionalHeight = valueToComp / dataMaxVal;
+    var valueToChart = proportionalHeight * chartHeight;
+    var yValue = chartBase - valueToChart;
     return yValue;
 }
 
@@ -81,20 +83,20 @@ function createLine(verts) {
     myTrimProp.addToMotionGraphicsTemplate(myComp);
 }
 
-// function createNull(item, count, spaceBetween, rightMax){
+// function createNull(item, count, spaceXBetween, chartMax){
 //     var myNull = myComp.layers.addNull(sceneLength);
-//     var spreadValue = spaceBetween * count;
-//     var proportionalY = chartBase - ( item['Yield % (RIGHT)'] * compSizeY / rightMax * chartHeightToComp ) ;
+//     var spreadValue = spaceXBetween * count;
+//     var proportionalY = chartBase - ( item['Yield % (RIGHT)'] * compSizeY / chartMax * chartHeightToComp ) ;
 //     // $.writeln(proportionalY);
 //     myNull.name = 'null-' + item.FIELD1;
 //     myNull.position.setValue([ spreadValue + xPadding, proportionalY  ]);
-//     myNull.scale.setValue([ spaceBetween * 0.85, spaceBetween * 0.85 ]);
+//     myNull.scale.setValue([ spaceXBetween * 0.85, spaceXBetween * 0.85 ]);
 //     return myNull;
 // };
 
-function createSolid(item, count, spaceBetween, parentNull, rightMax) {
+function createSolid(item, count, spaceXBetween, parentNull, chartMax) {
     if (count % 2 == 0) {
-        var yValue = getProportionalYValue(item["Yield % (RIGHT)"], rightMax);
+        var yValue = getProportionalYValue(item["Yield % (RIGHT)"], chartMax);
 
         var width = 100;
         var height = chartBase - yValue;
@@ -109,7 +111,7 @@ function createSolid(item, count, spaceBetween, parentNull, rightMax) {
         // $.writeln(mySolid.anchorPoint.value);
         mySolid.anchorPoint.setValue([0, height]);
         var yWithNewAnchorPoint = height / (height * 2);
-        var spreadValue = spaceBetween * count;
+        var spreadValue = spaceXBetween * count;
         mySolid.position.setValue([
             spreadValue + xPadding,
             chartBase - yWithNewAnchorPoint,
@@ -146,14 +148,30 @@ function createSolid(item, count, spaceBetween, parentNull, rightMax) {
     }
 }
 
-function createText(item, count, spaceBetween, parentNull) {
-    if ((count + 5) % 10 == 0) {
+function createYAxisText(spaceYBetween) {
+    for (var n = 0; n < splitLabelYArray.length; n++) {
+        var yAxisText = parseInt(chartMin) + splitLabelYArray[n];
+        var myYText = myComp.layers.addText(yAxisText);
+        var yTextProperty = myYText.property("Source Text").value;
+        var spreadValue = spaceYBetween * n;
+        myYText.position.setValue([50, chartBase - (spreadValue + yPadding)]);
+        yTextProperty.fontSize = 30;
+        myYText.property("Source Text").setValue(yTextProperty);
+    }
+}
+
+function createXAxisText(item, count, spaceXBetween, parentNull) {
+    if (
+        splitLabelXArray.find(function (element) {
+            return element == count;
+        }) != undefined
+    ) {
         var myText = myComp.layers.addText(item[axes.x]);
         var textProperty = myText.property("Source Text").value;
-        var spreadValue = spaceBetween * count;
+        var spreadValue = spaceXBetween * count;
         myText.position.setValue([spreadValue + xPadding, chartBase + 50]);
         textProperty.fontSize = 30;
-        textProperty.justification = ParagraphJustification.CENTER_JUSTIFY;
+        // textProperty.justification = ParagraphJustification.CENTER_JUSTIFY;
         myText.property("Source Text").setValue(textProperty);
     }
 }

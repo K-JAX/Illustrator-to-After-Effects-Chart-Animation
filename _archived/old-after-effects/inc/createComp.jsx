@@ -16,12 +16,13 @@ var chartBase = compSizeY * 0.75;
 function createLayers(data) {
     var count = 0;
     var total = data.length;
-    var spaceBetween = (compSizeX - xPadding * 1.5) / total;
+    var spaceXBetween = (compSizeX - xPadding * 1.5) / total;
+    var spaceYBetween = (compSizeX - yPadding * 1.5) / total;
 
     var leftMax = getMaxValue(data, leftFieldName);
     var rightMax = getMaxValue(data, rightFieldName);
 
-    var chartMax = Math.ceil(leftMax / 10 + 1) * 10;
+    // var chartMax = Math.ceil(leftMax / 10 + 1) * 10;
 
     createMasterNull();
 
@@ -33,15 +34,16 @@ function createLayers(data) {
     // T.outPoint = myComp.duration;
     // T.text.sourceText.expression = "thisComp.layer(\"Line\").content(\"Group 1\").content(\"Trim Paths 1\").end";
     // T.transform.position.setValue([100,80,0]);
+    createYAxisText(spaceYBetween);
 
     app.project.activeItem.motionGraphicsTemplateName = "Line Chart Controls";
     data.forEach(function (arrayItem) {
         if (chartType == "Line" || chartType == "Line & Bars") {
             vertices.push(
-                makeVertices(arrayItem, count, spaceBetween, rightMax)
+                makeVertices(arrayItem, count, spaceXBetween, leftMax)
             );
         }
-        createAssets(arrayItem, count, spaceBetween, rightMax);
+        createAssets(arrayItem, count, spaceXBetween, leftMax);
         count += 1;
     });
 
